@@ -1,5 +1,5 @@
-# Elevate Accounting with Analytics
+# The Modern Accountant Lab
 
 This repo is setup for publishing public pages of the professional development course for accounting professionals.
 
-https://jy-andy-hu.github.io/DataAnalyticsForAccountants/ 
+[https://jy-andy-hu.github.io/DataAnalyticsForAccountants/ ](https://jy-andy-hu.github.io/TheModernAccountantLab/)
