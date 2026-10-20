@@ -1,0 +1,22 @@
+---
+title: "Catalog"
+subtitle: "Every course in The Modern Accountant's Lab, in one place."
+page-layout: full
+listing:
+  id: catalog
+  contents:
+    - "chapters/*.qmd"
+    - "!chapters/*before-we-start*.qmd"
+    - "!chapters/Setup-*.qmd"
+  type: grid
+  grid-columns: 3
+  categories: true
+  sort: "order"
+  fields: [title, description, categories]
+  max-description-length: 220
+---
+
+Practical, hands-on courses that help accountants build programming literacy and analytical thinking. New here? Start with the [Home](index.qmd) page, then browse by arena: [Python](python.qmd), [R](r.qmd), [Power BI & Fabric](powerbi.qmd), [Excel](excel.qmd) or [AI](ai.qmd). Use the category chips to filter.
+
+::: {#catalog}
+:::

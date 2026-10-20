@@ -21,6 +21,14 @@
   "containerEnv": {
     "CLAUDE_CONFIG_DIR": "/home/vscode/.claude"
   },
+  "runArgs": [
+    "--cap-drop=ALL",
+    "--security-opt=no-new-privileges"
+  ], 
+  // Registers the Power BI Modeling MCP server (installed in the image) with Claude Code
+  // every time the container starts, if it isn't registered already. It runs at start
+  // because Claude Code's settings live in the volume above, not in the image.
+  "postStartCommand": "claude mcp get powerbi-modeling >/dev/null 2>&1 || claude mcp add --scope user powerbi-modeling -- npx --no-install @microsoft/powerbi-modeling-mcp --start",
 
   "customizations": {
     "vscode": {
@@ -28,8 +36,20 @@
         "anthropic.claude-code",
         "ms-python.python",
         "ms-toolsai.jupyter",
-        "quarto.quarto"
-      ]
+        "quarto.quarto",
+        // R: syntax, autocomplete, run code, view data/plots (uses the languageserver package in the image)
+        "REditorSupport.r"
+      ],
+      "settings": {
+        // R installed in the image
+        "r.rterm.linux": "/usr/bin/R",
+        "r.rpath.linux": "/usr/bin/R",
+        // Sends multi-line selections to the R terminal correctly
+        "r.bracketedPaste": true,
+        // Show R plots in a VS Code panel
+        "r.plot.useHttpgd": false,
+        "r.sessionWatcher": true
+      }
     }
   }
 }

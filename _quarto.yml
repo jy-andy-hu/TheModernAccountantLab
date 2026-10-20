@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render: 
     - index.qmd
-    - preface.qmd
+    - catalog.qmd
     - analytics.qmd
     - python.qmd
     - r.qmd
@@ -68,10 +68,10 @@ website:
     background: primary
     search: false
     left:
-      - text: "Catalog"
+      - text: "Home"
         href: index.qmd
-      - text: "Preface"
-        href: preface.qmd
+      - text: "Catalog"
+        href: catalog.qmd
       - text: "Analytics"
         menu:
           - text: "Overview"

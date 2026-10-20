@@ -1,8 +1,7 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/catalog.html",
     "items": [
-      "/preface.html",
       "/chapters/SuperchargeWithPythonR.html",
       "/chapters/PBI_ForAccountantSeries.html",
       "/chapters/ExcelPython.html",

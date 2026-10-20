@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,10 +10,16 @@
 
 <title>Get Started with Power BI Desktop – The Modern Accountant’s Lab</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3db365c9c97887be4aa8f125fe5384f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f6848a5dec086418dcc82864627c7b79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,11 +96,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Catalog</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../preface.html"> 
-<span class="menu-text">Preface</span></a>
+    <a class="nav-link" href="../catalog.html"> 
+<span class="menu-text">Catalog</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analytics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -221,6 +227,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#install-power-bi-desktop" id="toc-install-power-bi-desktop" class="nav-link active" data-scroll-target="#install-power-bi-desktop">Install Power BI Desktop</a></li>
+  <li><a href="#update-power-bi-desktop-to-the-latest-version" id="toc-update-power-bi-desktop-to-the-latest-version" class="nav-link" data-scroll-target="#update-power-bi-desktop-to-the-latest-version">Update Power BI Desktop to the Latest Version</a>
+  <ul class="collapse">
+  <li><a href="#step-1-check-which-version-you-have-and-how-it-was-installed" id="toc-step-1-check-which-version-you-have-and-how-it-was-installed" class="nav-link" data-scroll-target="#step-1-check-which-version-you-have-and-how-it-was-installed">Step 1: Check which version you have and how it was installed</a></li>
+  <li><a href="#option-a-microsoft-store-method-recommended" id="toc-option-a-microsoft-store-method-recommended" class="nav-link" data-scroll-target="#option-a-microsoft-store-method-recommended">Option A: Microsoft Store method (recommended)</a></li>
+  <li><a href="#option-b-power-bi-installer-method-msi" id="toc-option-b-power-bi-installer-method-msi" class="nav-link" data-scroll-target="#option-b-power-bi-installer-method-msi">Option B: Power BI installer method (MSI)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -274,10 +286,107 @@ Note
 </div>
 <p>There is an excellent YouTube channel called “Guys in A Cube” for many Power BI related tricks. They also provided one of the best Power BI Desktop walk through. Please follow the link and video to complete your installation process.</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=qIt2n46Qa7s">Walkthrough - Install VS Code on macOS</a></li>
+<li><a href="https://www.youtube.com/watch?v=qIt2n46Qa7s">Walkthrough - Install Power BI Desktop</a></li>
 </ul>
+</section>
+<section id="update-power-bi-desktop-to-the-latest-version" class="level2">
+<h2 class="anchored" data-anchor-id="update-power-bi-desktop-to-the-latest-version">Update Power BI Desktop to the Latest Version</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>This section is only for people who already have Power BI Desktop installed.</strong> If you are installing Power BI Desktop for the first time, follow the <a href="#install-power-bi-desktop">Install Power BI Desktop</a> steps above instead. A fresh install already gives you the latest version.</p>
+</div>
+</div>
+<p>Microsoft releases a new version of Power BI Desktop every month. Our course files may use features from a recent release, so please update before class. Older versions may fail to open newer <code>.pbix</code> files.</p>
+<section id="step-1-check-which-version-you-have-and-how-it-was-installed" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-check-which-version-you-have-and-how-it-was-installed">Step 1: Check which version you have and how it was installed</h3>
+<ol type="1">
+<li>Open Power BI Desktop.</li>
+<li>Go to <strong>Help</strong> &gt; <strong>About</strong>.</li>
+<li>Note the <strong>Version</strong> number (for example, <code>2.1xx.xxx.0 64-bit (Month Year)</code>). The month and year tell you how old your copy is.</li>
+<li>Also note the <strong>Distribution type</strong>:
+<ul>
+<li><strong>Microsoft Store</strong> means you installed it from the Microsoft Store. Use <strong>Option A</strong> below.</li>
+<li><strong>MSI</strong> (or anything other than Microsoft Store) means you installed it with the downloaded installer. Use <strong>Option B</strong> below.</li>
+</ul></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you can’t find the distribution type, open the <strong>Start</strong> menu, search for <strong>Microsoft Store</strong>, open it, go to <strong>Library</strong>, and look for Power BI Desktop. If it is listed there, you have the Microsoft Store version.</p>
+</div>
+</div>
+</section>
+<section id="option-a-microsoft-store-method-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="option-a-microsoft-store-method-recommended">Option A: Microsoft Store method (recommended)</h3>
+<p>The Microsoft Store version normally updates itself in the background. To make sure you are on the latest version right now:</p>
+<ol type="1">
+<li>Close Power BI Desktop completely (save your work first).</li>
+<li>Open the <strong>Microsoft Store</strong> app from the <strong>Start</strong> menu.</li>
+<li>Click <strong>Library</strong> in the lower-left corner.</li>
+<li>Click <strong>Get updates</strong>. The Store checks all your apps for updates.</li>
+<li>If Power BI Desktop appears in the list, click <strong>Update</strong> next to it (or <strong>Update all</strong>) and wait for it to finish.</li>
+<li>Re-open Power BI Desktop and check <strong>Help</strong> &gt; <strong>About</strong> to confirm the new version.</li>
+</ol>
+<p>You can also search for <strong>Power BI Desktop</strong> in the Microsoft Store and click <strong>Update</strong> (or <strong>Open</strong>, which means you are already up to date) on its page.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To keep it updating on its own, open the Microsoft Store, click your profile icon &gt; <strong>Settings</strong>, and turn on <strong>App updates</strong>.</p>
+</div>
+</div>
+</section>
+<section id="option-b-power-bi-installer-method-msi" class="level3">
+<h3 class="anchored" data-anchor-id="option-b-power-bi-installer-method-msi">Option B: Power BI installer method (MSI)</h3>
+<p>The installer version does <strong>not</strong> update itself. Each month, Power BI Desktop may show an “update available” notification, but you install updates by downloading the newest installer and running it over your existing copy. Your reports and settings are kept.</p>
+<ol type="1">
+<li>Close Power BI Desktop completely (save your work first).</li>
+<li>Go to the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494">Microsoft Power BI Desktop download page</a>.</li>
+<li>Choose your language and click <strong>Download</strong>.</li>
+<li>Select <strong>PBIDesktopSetup_x64.exe</strong> (the 64-bit version, which almost every modern laptop needs) and click <strong>Download</strong>.</li>
+<li>Run the downloaded file. Click <strong>Yes</strong> if Windows asks for permission to make changes.</li>
+<li>Follow the setup wizard: click <strong>Next</strong>, accept the license agreement, keep the default install folder, and click <strong>Install</strong>.</li>
+<li>When it finishes, click <strong>Finish</strong> and launch Power BI Desktop.</li>
+<li>Check <strong>Help</strong> &gt; <strong>About</strong> to confirm the new version.</li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Don’t install both versions.</strong> If you have the installer (MSI) version and want to switch to the Microsoft Store version, first uninstall Power BI Desktop from <strong>Settings</strong> &gt; <strong>Apps</strong> &gt; <strong>Installed apps</strong>, then install it from the Microsoft Store. Having both on one computer can cause conflicts.</p>
+<p>If you are on a work laptop and the installer asks for an administrator password, contact your IT team. Many organizations manage Power BI updates for you.</p>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -332,13 +441,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

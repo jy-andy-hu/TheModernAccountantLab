@@ -18,4 +18,63 @@ title: Get Started with Power BI Desktop
 
 There is an excellent YouTube channel called "Guys in A Cube" for many Power BI related tricks. They also provided one of the best Power BI Desktop walk through. Please follow the link and video to complete your installation process. 
 
-  - [Walkthrough - Install VS Code on macOS](https://www.youtube.com/watch?v=qIt2n46Qa7s)
+  - [Walkthrough - Install Power BI Desktop](https://www.youtube.com/watch?v=qIt2n46Qa7s)
+
+## Update Power BI Desktop to the Latest Version
+
+:::{.callout-important}
+
+**This section is only for people who already have Power BI Desktop installed.** If you are installing Power BI Desktop for the first time, follow the [Install Power BI Desktop](#install-power-bi-desktop) steps above instead. A fresh install already gives you the latest version.
+
+:::
+
+Microsoft releases a new version of Power BI Desktop every month. Our course files may use features from a recent release, so please update before class. Older versions may fail to open newer `.pbix` files.
+
+### Step 1: Check which version you have and how it was installed
+
+1. Open Power BI Desktop.
+2. Go to **Help** > **About**.
+3. Note the **Version** number (for example, `2.1xx.xxx.0 64-bit (Month Year)`). The month and year tell you how old your copy is.
+4. Also note the **Distribution type**:
+   - **Microsoft Store** means you installed it from the Microsoft Store. Use **Option A** below.
+   - **MSI** (or anything other than Microsoft Store) means you installed it with the downloaded installer. Use **Option B** below.
+
+:::{.callout-tip}
+If you can't find the distribution type, open the **Start** menu, search for **Microsoft Store**, open it, go to **Library**, and look for Power BI Desktop. If it is listed there, you have the Microsoft Store version.
+:::
+
+### Option A: Microsoft Store method (recommended)
+
+The Microsoft Store version normally updates itself in the background. To make sure you are on the latest version right now:
+
+1. Close Power BI Desktop completely (save your work first).
+2. Open the **Microsoft Store** app from the **Start** menu.
+3. Click **Library** in the lower-left corner.
+4. Click **Get updates**. The Store checks all your apps for updates.
+5. If Power BI Desktop appears in the list, click **Update** next to it (or **Update all**) and wait for it to finish.
+6. Re-open Power BI Desktop and check **Help** > **About** to confirm the new version.
+
+You can also search for **Power BI Desktop** in the Microsoft Store and click **Update** (or **Open**, which means you are already up to date) on its page.
+
+:::{.callout-note}
+To keep it updating on its own, open the Microsoft Store, click your profile icon > **Settings**, and turn on **App updates**.
+:::
+
+### Option B: Power BI installer method (MSI)
+
+The installer version does **not** update itself. Each month, Power BI Desktop may show an "update available" notification, but you install updates by downloading the newest installer and running it over your existing copy. Your reports and settings are kept.
+
+1. Close Power BI Desktop completely (save your work first).
+2. Go to the [Microsoft Power BI Desktop download page](https://www.microsoft.com/en-us/download/details.aspx?id=58494).
+3. Choose your language and click **Download**.
+4. Select **PBIDesktopSetup_x64.exe** (the 64-bit version, which almost every modern laptop needs) and click **Download**.
+5. Run the downloaded file. Click **Yes** if Windows asks for permission to make changes.
+6. Follow the setup wizard: click **Next**, accept the license agreement, keep the default install folder, and click **Install**.
+7. When it finishes, click **Finish** and launch Power BI Desktop.
+8. Check **Help** > **About** to confirm the new version.
+
+:::{.callout-warning}
+**Don't install both versions.** If you have the installer (MSI) version and want to switch to the Microsoft Store version, first uninstall Power BI Desktop from **Settings** > **Apps** > **Installed apps**, then install it from the Microsoft Store. Having both on one computer can cause conflicts.
+
+If you are on a work laptop and the installer asks for an administrator password, contact your IT team. Many organizations manage Power BI updates for you.
+:::

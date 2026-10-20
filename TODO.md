@@ -15,7 +15,7 @@ Items are ordered in the sequence they are likely to be tackled.
 - [ ] "GAAP for Data Visualization": its "Before We Start" sidebar link points to the R course page. Either create a GAAP before-we-start page or remove the link.
 - [ ] Decide whether `Setup-vscode.qmd` and `InfusePythontoAccounting-before-we-start(AnacondaDistribution).qmd` should be published. They are not in the `render:` list in `_quarto.yml`.
 - [ ] `.gitignore` excludes `images/`, but the site uses images from it. Check what you intend.
-- [ ] Review the Preface (`preface.qmd`) wording now that the catalog is the home page.
+- [ ] Review the Home page (`index.qmd`, formerly the Preface) wording now that it is the landing page.
 
 ## 3. When each AI course goes live
 - [ ] Remove `draft: true` from the course page.
