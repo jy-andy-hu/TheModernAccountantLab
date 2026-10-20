@@ -3,4 +3,5 @@ slides/
 /.quarto/
 **/*.quarto_ipynb
 .claude/
-
+TODO.md
+snowflake.log
