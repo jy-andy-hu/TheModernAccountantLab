@@ -29,6 +29,7 @@ project:
     - chapters/PBI_FinancialStatements.qmd
     - chapters/PBI_ForAccountantSeries-before-we-start.qmd
     - chapters/PBI_ForAccountantSeries.qmd
+    - chapters/PBI_ManageBudget-before-we-start.qmd
     - chapters/PBI_ManageBudget.qmd
     - chapters/ModernDataPlatform.qmd
     - chapters/Setup-anacondacode.qmd
@@ -192,7 +193,7 @@ website:
               - text: "Overview"
                 href: chapters/PBI_ManageBudget.qmd
               - text: "To Do, Before We Start"
-                href: chapters/PBI_ForAccountantSeries-before-we-start.qmd
+                href: chapters/PBI_ManageBudget-before-we-start.qmd
           - section: '2. Engaging Custom Financial Statements'
             contents:
               - text: "Overview"

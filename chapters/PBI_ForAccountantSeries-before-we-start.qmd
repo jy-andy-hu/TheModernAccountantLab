@@ -18,7 +18,7 @@ This session is an intermediate-level, walk-through-style seminar/lab. To follow
     
     - Company-managed laptops tend to have restrictive IT policies that tend to prohibit us from installing the tools as we need.
 
-2. Power BI Desktop (see [Get Stared with Poewr BI Desktop](Setup-pbidesktop.qmd))
+2. Power BI Desktop (see [Get Stared with Power BI Desktop](Setup-pbidesktop.qmd))
 
 3. PostgreSQL server (see [Get Started with PostgreSQL](Setup-postgreSQL.qmd))
 

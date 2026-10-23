@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,16 +10,10 @@
 
 <title>Get Started with Python – The Modern Accountant’s Lab</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f6848a5dec086418dcc82864627c7b79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3db365c9c97887be4aa8f125fe5384f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -294,48 +288,48 @@ Note
 <li><p>Head to MiniForge download website, https://conda-forge.org/download/. (yes, even the website is called “conda-forge”, we are downloading “MiniForge” still. 😇) and download installer file for Windows OS.</p></li>
 <li><p>Open the downloaded installer and it will greet you like the following:</p></li>
 </ol>
-<p><img src="../images/MiniForgeInstall/1-installergreeting.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/1-installergreeting.png" class="img-fluid"></p>
 <ol start="3" type="1">
 <li>Agree to user agreement.</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/2-installuseragreement.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/2-installuseragreement.png" class="img-fluid"></p>
 <ol start="4" type="1">
 <li>Go with just install for the current user (“Just Me”)</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/3-installuser.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/3-installuser.png" class="img-fluid"></p>
 <ol start="5" type="1">
 <li>Go with the default file path</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/4-installdefaultpath.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/4-installdefaultpath.png" class="img-fluid"></p>
 <ol start="6" type="1">
 <li>Make sure the following options are selected.</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/5-installpathsettings.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/5-installpathsettings.png" class="img-fluid"></p>
 <ol start="7" type="1">
 <li>Proceed to finish installation</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/6-installfinish.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/6-installfinish.png" class="img-fluid"></p>
 <ol start="8" type="1">
 <li>In Start Menu, notice that there is something new called “MiniForge Prompt” and click to open it.</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/7-searchminiforge.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/7-searchminiforge.png" class="img-fluid"></p>
 <ol start="9" type="1">
 <li>In the open MiniForge Prompt, type the following and then press Enter key.</li>
 </ol>
 <pre><code>conda init powershell</code></pre>
-<p><img src="../images/MiniForgeInstall/8-condainit.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/8-condainit.png" class="img-fluid"></p>
 <ol start="10" type="1">
 <li>You should be able to see the following:</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/9-condainitfinish.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/9-condainitfinish.png" class="img-fluid"></p>
 <ol start="11" type="1">
 <li>Close the MiniForge Prompt window and open Windows PowerShell, you should be able to see the following.</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/10-condapowershell.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/10-condapowershell.png" class="img-fluid"></p>
 <ol start="12" type="1">
 <li>Type the word Python in the command line, you should see the confirmation of a Python found!</li>
 </ol>
-<p><img src="../images/MiniForgeInstall/11-pythoninstalled.png" class="img-fluid"></p>
+<p><img src="..\images/MiniForgeInstall/11-pythoninstalled.png" class="img-fluid"></p>
 <p>🎉🎉 <strong>That’s it! You have reached to the finishing line of installing MiniForge and Python!!</strong></p>
 <!-- https://www.youtube.com/watch?v=aph7ZLb21rg full windows -->
 
@@ -394,14 +388,13 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
