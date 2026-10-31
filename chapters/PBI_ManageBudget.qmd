@@ -19,7 +19,7 @@ This session is a specialty Power BI lab-style seminar that focuses on technique
 
 ## Length
 
-8 hours.
+10 hours.
 
 ## Key Takeaways
 
@@ -57,6 +57,8 @@ This seminar appeals to several demographics:
 
 ## Prerequisite(s)
 
-Basic understanding and hands-on expereinces of building solutions with Microsoft Power BI is required.
+This course is designed as intermediate level Power BI course, which assumes audience has been comfortable with using Power BI and building solutions with Power BI.
+
+Essential understanding and hands-on (2-3 years) expereinces of building solutions with Microsoft Power BI is required.
 
 To fully engage in this course, please ensure you have access to a personal computer (Windows 11 or later) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
