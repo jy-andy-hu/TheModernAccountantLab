@@ -274,7 +274,7 @@
     "href": "chapters/PBI_ForAccountantSeries-before-we-start.html#what-setups-do-we-need",
     "title": "To-Dos, Before Our Session Begins",
     "section": "What Setups Do We Need?",
-    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS is a must, as Microsoft Power BI Desktop has no macOS offering.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohibit us from installing the tools as we need.\n\n\n\nPower BI Desktop (see Get Stared with Power BI Desktop)\nPostgreSQL server (see Get Started with PostgreSQL)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
+    "text": "What Setups Do We Need?\n\nPersonal laptop.\n\n\nWindows OS is a must, as Microsoft Power BI Desktop has no macOS offering.\nWhy Personal laptops?\n\nCompany-managed laptops tend to have restrictive IT policies that tend to prohibit us from installing the tools as we need.\n\n\n\nPower BI Desktop (see Get Stared with Power BI Desktop)\n\n🎉🎉 That’s it!! That’s all the setup we need to get the show going! I look forward to seeing you see the session!",
     "crumbs": [
       "Power BI & Fabric Arena",
       "Bootcamp: Power BI for Power Accountants",
@@ -1394,7 +1394,7 @@
     "href": "chapters/PBI_ForAccountantSeries.html#prerequisites",
     "title": "Power BI for Power Accountants",
     "section": "Prerequisite(s)",
-    "text": "Prerequisite(s)\nAny level of knowledge about Power BI is welcome. No previous knowledge about Power BI required. This is beginner friendly session.\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.\nTo fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
+    "text": "Prerequisite(s)\nThis course is designed as intermediate (moderately above introductory) level Power BI course, which assumes audience have been comfortable with using Power BI and building solutions with Power BI. Some basic level knowledge of relational database is required (e.g. what is one-to-one, one-to-many relationships… etc.)\nTo get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.\nTo fully engage in this course, please ensure you have access to a personal computer (Windows 11) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.",
     "crumbs": [
       "Power BI & Fabric Arena",
       "Bootcamp: Power BI for Power Accountants",

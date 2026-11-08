@@ -56,8 +56,8 @@ This course appeals to several demographics:
 
 ## Prerequisite(s)
 
-Any level of knowledge about Power BI is welcome. No previous knowledge about Power BI required. This is beginner friendly session.
+This course is designed as intermediate (moderately above introductory) level Power BI course, which assumes audience have been comfortable with using Power BI and building solutions with Power BI. Some basic level knowledge of relational database is required (e.g. what is one-to-one, one-to-many relationships... etc.)
 
 To get the most out of this session, you should have a few years of experience using Microsoft Excel. You should be comfortable with concepts like Pivot Tables, lookups, and basic functions such as SUM and SUMIFS.
 
-To fully engage in this course, please ensure you have access to a personal computer (Windows or macOS) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.
+To fully engage in this course, please ensure you have access to a personal computer (Windows 11) and are prepared to install the necessary tools prior to the seminar. This will allow you to follow along with the hands-on exercises and make the most of the learning experience.

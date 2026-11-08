@@ -20,8 +20,6 @@ This session is an intermediate-level, walk-through-style seminar/lab. To follow
 
 2. Power BI Desktop (see [Get Stared with Power BI Desktop](Setup-pbidesktop.qmd))
 
-3. PostgreSQL server (see [Get Started with PostgreSQL](Setup-postgreSQL.qmd))
-
 
 🎉🎉 **That's it!! That's all the setup we need to get the show going! I look forward to seeing you see the session!**
 
